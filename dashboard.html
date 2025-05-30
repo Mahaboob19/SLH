@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SLH - Dashboard</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="dashboard.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar Navigation -->
+      <nav class="sidebar">
+        <div class="logo">
+          <h2>Smart Learning Hub</h2>
+        </div>
+        <ul class="nav-links">
+          <li class="active"><i class="fas fa-home"></i> Dashboard</li>
+          <li><i class="fas fa-book"></i> Courses</li>
+          <li><i class="fas fa-tasks"></i> Assignments</li>
+          <li><i class="fas fa-chart-line"></i> Progress</li>
+          <li><i class="fas fa-cog"></i> Settings</li>
+        </ul>
+      </nav>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <!-- Header -->
+        <header class="header">
+          <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search..." />
+          </div>
+          <div class="user-info">
+            <div class="coins">
+              <i class="fas fa-coins"></i>
+              <span>2,450</span>
+            </div>
+            <div class="notifications">
+              <i class="fas fa-bell"></i>
+              <span class="badge">3</span>
+            </div>
+            <div class="profile">
+              <img src="profile.png" alt="Profile" />
+              <span>John Doe</span>
+            </div>
+          </div>
+        </header>
+
+        <!-- Dashboard Content -->
+        <div class="dashboard-content">
+          <!-- Stats Cards -->
+          <div class="stats-container">
+            <div class="stat-card">
+              <i class="fas fa-graduation-cap"></i>
+              <div class="stat-info">
+                <h3>Courses Enrolled</h3>
+                <p>5</p>
+              </div>
+            </div>
+            <div class="stat-card">
+              <i class="fas fa-trophy"></i>
+              <div class="stat-info">
+                <h3>Achievement Rate</h3>
+                <p>85%</p>
+              </div>
+            </div>
+            <div class="stat-card">
+              <i class="fas fa-clock"></i>
+              <div class="stat-info">
+                <h3>Study Hours</h3>
+                <p>24.5</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Progress Section -->
+          <div class="progress-section">
+            <h2>Your Progress</h2>
+            <div class="progress-cards">
+              <div class="progress-card">
+                <h3>Web Development</h3>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 75%"></div>
+                </div>
+                <p>75% Complete</p>
+              </div>
+              <div class="progress-card">
+                <h3>Machine Learning</h3>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 60%"></div>
+                </div>
+                <p>60% Complete</p>
+              </div>
+              <div class="progress-card">
+                <h3>Data Science</h3>
+                <div class="progress-bar">
+                  <div class="progress" style="width: 90%"></div>
+                </div>
+                <p>90% Complete</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Recent Test Results -->
+          <div class="test-results">
+            <h2>Recent Test Results</h2>
+            <div class="results-table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Subject</th>
+                    <th>Test Name</th>
+                    <th>Score</th>
+                    <th>Date</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Web Development</td>
+                    <td>Algebra Quiz</td>
+                    <td>85%</td>
+                    <td>2025-03-15</td>
+                  </tr>
+                  <tr>
+                    <td>Machine Learning</td>
+                    <td>Physics Test</td>
+                    <td>92%</td>
+                    <td>2025-03-14</td>
+                  </tr>
+                  <tr>
+                    <td>Data Science</td>
+                    <td>Grammar Test</td>
+                    <td>78%</td>
+                    <td>2025-03-13</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer>&copy;2025 Smart Learning Hub. All Rights Reserved.</footer>
+  </body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SLH | FunLearn</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="funlearn.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="img.png" alt="LOGO" />
+        <h1>Smart Learning Hub</h1>
+      </div>
+      <div class="head">
+        <h1>FunLearn</h1>
+      </div>
+      <div class="buttons">
+        <!-- Coins Icon -->
+        <ion-icon
+          name="wallet-outline"
+          class="icon-button coins-icon"
+        ></ion-icon>
+
+        <div class="profile-dropdown">
+          <ion-icon
+            name="person-circle-outline"
+            class="icon-button profile-icon"
+            id="accountButton"
+          ></ion-icon>
+          <div class="dropdown-menu" id="dropdownMenu">
+            <a href="dashboard.html">Dashboard</a>
+            <a href="#">My Courses</a>
+            <a href="#">Progress</a>
+            <a href="#">Settings</a>
+            <a href="#">Logout</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="cont">
+      <p>
+        <span>NOTE:</span>
+        <marquee behavior="" direction=""
+          >The Content which was displayed here are based on your Study
+          Level..</marquee
+        >
+      </p>
+    </div>
+    <div class="search-filter-container">
+      <input
+        type="text"
+        placeholder="Search courses or subjects..."
+        class="search-input"
+      />
+
+      <select class="filter-select">
+        <option value="">All Categories</option>
+        <option value="math">Mathematics</option>
+        <option value="science">Science</option>
+        <option value="biology">Biology</option>
+        <option value="social">Social</option>
+        <option value="coding">Coding</option>
+        <option value="languages">Languages</option>
+        <option value="history">History</option>
+        <!-- Add more categories as needed -->
+      </select>
+
+      <button class="search-button">Search</button>
+    </div>
+
+    <div id="explore" class="explore-section">
+      <!-- <h2>Courses Catlog</h2> -->
+      <div class="cards">
+        <div class="course-card">
+          <div class="image">
+            <img src="webd.jpg" alt="Web Development" />
+          </div>
+          <div class="content">
+            <h3>Web Development</h3>
+            <p>Learn HTML, CSS, JavaScript and modern frameworks</p>
+            <button class="enroll" onclick="detail()">Enroll Now</button>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="image">
+            <img src="ds.jpg" alt="Data Science" />
+          </div>
+          <div class="content">
+            <h3>Data Science</h3>
+            <p>Master Python, Statistics, and Michine Learning</p>
+            <button class="enroll" onclick="window.location.href = 'ds.html'">
+              Enroll Now
+            </button>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="image">
+            <img src="dm.jpg" alt="Digital Marketing" />
+          </div>
+          <div class="content">
+            <h3>Digital Marketing</h3>
+            <p>Learn SEO, social media, and content marketing</p>
+            <button class="enroll" onclick="window.location.href = 'dm.html'">
+              Enroll Now
+            </button>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="image">
+            <img src="flutter.png" alt="Google Flutter" />
+          </div>
+          <div class="content">
+            <h3>Google Flutter</h3>
+            <p>Learn to explore the Mobile App Aplication</p>
+            <button
+              class="enroll"
+              onclick="window.location.href = 'flutter.html'"
+            >
+              Enroll Now
+            </button>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="image">
+            <img src="ml.jpg" alt="Machine Learning" />
+          </div>
+          <div class="content">
+            <h3>Machine Learning</h3>
+            <p>Learn Machine Learning Techniques</p>
+            <button class="enroll" onclick="window.location.href = 'ml.html'">
+              Enroll Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>&copy;2025 Smart Learning Hub. All Rights Reserved.</footer>
+    <script src="funlearn.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

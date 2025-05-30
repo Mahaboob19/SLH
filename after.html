@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="icon.png" />
+    <title>Smart Learning Hub</title>
+    <link rel="stylesheet" href="after.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="img.png" alt="LOGO" />
+        <h1>Smart Learning Hub</h1>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#explore">Explore</a>
+        <a href="funlearn.html">FunLearn</a>
+        <a href="#about">About</a>
+        <a href="#contactus">ContactUs</a>
+      </div>
+      <div class="buttons">
+        <!-- Coins Icon -->
+        <ion-icon
+          name="wallet-outline"
+          class="icon-button coins-icon"
+        ></ion-icon>
+
+        <div class="profile-dropdown">
+          <ion-icon
+            name="person-circle-outline"
+            class="icon-button profile-icon"
+            id="accountButton"
+          ></ion-icon>
+          <div class="dropdown-menu" id="dropdownMenu">
+            <a href="dashboard.html">Dashboard</a>
+            <a href="#">My Courses</a>
+            <a href="#">Progress</a>
+            <a href="#">Settings</a>
+            <a href="#">Logout</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="home" class="home-section">
+      <div class="content">
+        <h1>Welcome to Smart Learing Hub</h1>
+        <p>Empowering minds through innovative education</p>
+        <div class="buttons">
+          <button class="exp">Explore Courses</button>
+          <button class="learn">Learn More</button>
+        </div>
+      </div>
+      <div class="image">
+        <img src="img.png" alt="Image" />
+      </div>
+    </div>
+    <div id="explore" class="explore-section">
+      <h2>Courses Catlog</h2>
+      <div class="cards">
+        <div class="course-card">
+          <div class="image">
+            <img src="webd.jpg" alt="Web Development" />
+          </div>
+          <div class="content">
+            <h3>Web Development</h3>
+            <p>Learn HTML, CSS, JavaScript and modern frameworks</p>
+            <button class="enroll">Enroll Now</button>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="image">
+            <img src="ds.jpg" alt="Data Science" />
+          </div>
+          <div class="content">
+            <h3>Data Science</h3>
+            <p>Master Python, Statistics, and Michine Learning</p>
+            <button class="enroll">Enroll Now</button>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="image">
+            <img src="dm.jpg" alt="Digital Marketing" />
+          </div>
+          <div class="content">
+            <h3>Digital Marketing</h3>
+            <p>Learn SEO, social media, and content marketing</p>
+            <button class="enroll">Enroll Now</button>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="image">
+            <img src="flutter.png" alt="Google Flutter" />
+          </div>
+          <div class="content">
+            <h3>Google Flutter</h3>
+            <p>Learn to explore the Mobile App Aplication</p>
+            <button class="enroll">Enroll Now</button>
+          </div>
+        </div>
+        <div class="course-card">
+          <div class="image">
+            <img src="ml.jpg" alt="Machine Learning" />
+          </div>
+          <div class="content">
+            <h3>Machine Learning</h3>
+            <p>Learn Machine Learning Techniques</p>
+            <button class="enroll">Enroll Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="two">
+      <div id="about" class="about-section">
+        <div class="content">
+          <h1>About</h1>
+          <p>
+            Smart Learning Hub is a leading online education platform dedicated
+            to providing<br />
+            high-quality learing experiences to students worldwide. Our mission
+            is to make education <br />accessible, engaging, and effective for
+            everyone
+          </p>
+        </div>
+        <div class="features">
+          <div class="op" id="exp">
+            <h2>Explore</h2>
+            <p>
+              This Section Provides the Courses which are provided by the
+              Management and can be explore to get more benefits and it provides
+              an Interactive Learning.
+            </p>
+          </div>
+          <div class="op" id="funlearn">
+            <h2>FunLearn</h2>
+            <p>
+              This Section Provides the Animations, Games and can have fun in
+              learning and it gives the points which can use to access the
+              Explore Section Courses and it has some more Benefits.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="contactus" id="contactus">
+        <h1>ContactUs</h1>
+        <div class="sides">
+          <div class="ss" id="leftside">
+            <h2>Address</h2>
+            <div class="conticon">
+              <div class="loc">
+                <ion-icon name="location-outline"></ion-icon>
+                <p>VVITU<br />CSE Dept., Nambur, Guntur Dt, AP</p>
+              </div>
+              <div class="hours">
+                <h3>Office Hours:</h3>
+                <p>Monday - Friday: 8:00 AM - 4:00 PM</p>
+                <p>Saturday - Sunday: Closed</p>
+              </div>
+              <div class="touch">
+                <h3>Get in Touch:</h3>
+                <p><b>Email:</b> support@slh.com</p>
+                <p><b>Phone:</b> +91 8129736450</p>
+              </div>
+            </div>
+            <div class="follow">
+              <h3>Follow Us</h3>
+              <div class="social">
+                <ion-icon id="lin" name="logo-linkedin"></ion-icon>
+                <ion-icon class="fac" name="logo-facebook"></ion-icon>
+                <ion-icon class="ins" name="logo-instagram"></ion-icon>
+                <ion-icon class="twi" name="logo-twitter"></ion-icon>
+              </div>
+            </div>
+          </div>
+          <div class="ss" id="rightside">
+            <h2>Send Message</h2>
+            <div class="give">
+              <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>&copy;2025 Smart Learning Hub. All Rights Reserved.</footer>
+
+    <script src="after.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

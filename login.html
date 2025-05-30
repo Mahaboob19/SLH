@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SLH | SignIn</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="options">
+        <h1>SignIn</h1>
+        <form action="/login" method="POST" class="opt">
+          <div class="cont">
+            <label for="mail">Enter Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="mail"
+              placeholder="Enter Email"
+              required
+            />
+          </div>
+          <div class="cont">
+            <label for="password">Enter Password:</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter Password"
+              required
+            />
+          </div>
+          <div class="rem">
+            <div class="remin">
+              <input type="checkbox" id="remember" />
+              <label for="remember">Remember Me</label>
+            </div>
+            <div class="forgot">
+              <a href="#">Forgot Password</a>
+            </div>
+          </div>
+          <div class="buttons">
+            <button type="submit" onclick="window.location.href='after.html'">SignIn</button>
+          </div>
+          <div class="signup">
+            <p>Don't have an Account? <a href="signup.html">SignUp</a></p>
+          </div>
+        </form>
+      </div>
+      <div class="image">
+        <img src="img.png" alt="Image" />
+      </div>
+    </div>
+  </body>
+</html>

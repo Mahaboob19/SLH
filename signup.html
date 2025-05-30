@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SLH | SignUp</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="image">
+        <img src="img.png" alt="Image" />
+      </div>
+      <div class="container">
+        <h1>SignUp</h1>
+        <div class="register">
+          <form id="studyform">
+            <div class="part1">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter Full Name"
+              />
+
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Email"
+              />
+
+              <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Enter Mobile Number"
+              />
+
+              <label for="age">Age</label>
+              <input
+                type="number"
+                id="age"
+                name="age"
+                min="10"
+                max="100"
+                placeholder="Age"
+              />
+
+              <label for="password">Set Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter Password"
+              />
+            </div>
+
+            <div class="part2">
+              <label for="study-level">Study Level</label>
+              <select id="study-level" name="study_level">
+                <option value="">--Select--</option>
+                <option value="highschool">High School</option>
+                <option value="undergraduate">Undergraduate</option>
+                <option value="postgraduate">Postgraduate</option>
+              </select>
+
+              <label for="time">Preferred Study Time</label>
+              <select id="time" name="study_time">
+                <option value="">--Select--</option>
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+              </select>
+
+              <!-- Example for Full Width Elements -->
+              <div class="full-width">
+                <label for="comments">Additional Notes</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+              </div>
+            </div>
+
+            <div class="foot">
+              <button
+                type="submit"
+                id="signup"
+                <!--
+                onclick="window.location.href='login.html'"
+                --
+              >
+                <a href="login.html">SignUp</a>
+              </button>
+              <p>Already have an Account?<a href="login.html">SignIn</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
